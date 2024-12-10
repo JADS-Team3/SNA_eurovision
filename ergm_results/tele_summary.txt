@@ -1,0 +1,26 @@
+Call:
+ergm::ergm(formula = network_tele_0.4 ~ edges + mutual + gwesp(0.75, 
+    fixed = TRUE, type = "OSP") + gwidegree(0.25, fixed = TRUE) + 
+    gwodegree(0.5, fixed = TRUE) + nodematch("language") + edgecov(cultural_dist) + 
+    edgecov(neighbour_matrix), control = ergm::control.ergm(MCMC.burnin = 7000, 
+    MCMC.samplesize = 20000, seed = 1234, MCMLE.maxit = 40, parallel = 8, 
+    parallel.type = "PSOCK"))
+
+Monte Carlo Maximum Likelihood Results:
+
+                         Estimate Std. Error MCMC % z value Pr(>|z|)    
+edges                     -2.7166     0.3625      0  -7.494  < 1e-04 ***
+mutual                     0.8229     0.3693      0   2.228 0.025852 *  
+gwesp.OSP.fixed.0.75       0.3799     0.1158      0   3.279 0.001042 ** 
+gwideg.fixed.0.25         -1.7288     0.4980      0  -3.472 0.000517 ***
+gwodeg.fixed.0.5           2.4317     1.1103      0   2.190 0.028509 *  
+nodematch.language         0.6137     0.1814      0   3.383 0.000717 ***
+edgecov.cultural_dist     -1.5018     0.5396      0  -2.783 0.005382 ** 
+edgecov.neighbour_matrix   1.2804     0.2148      0   5.962  < 1e-04 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+     Null Deviance: 2387.2  on 1722  degrees of freedom
+ Residual Deviance:  806.5  on 1714  degrees of freedom
+ 
+AIC: 822.5  BIC: 866.1  (Smaller is better. MC Std. Err. = 0.1788)

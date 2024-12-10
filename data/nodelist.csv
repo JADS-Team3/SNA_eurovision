@@ -1,27 +1,43 @@
-country_id,country_name,performer,song,running_final,place_final,points_final,points_tele_final,points_jury_final,previous_participation_count,pdi,idv,mas,uai,ltowvs,ivr
-al,Albania,Albina & Familja Kelmendi,Duje,10,22,76,59,17,19,,,,,61,15
-am,Armenia,Brunette,Future Lover,17,14,122,53,69,15,,,,,61,
-at,Austria,Teya & Salena,Who The Hell Is Edgar?,1,15,120,16,104,55,11,55,79,70,60,63
-au,Australia,Voyager,Promise,15,9,151,21,130,,,,,,,
-be,Belgium,Gustaph,Because of You,16,7,182,55,127,63,65,75,54,94,82,57
-ch,Switzerland,Remo Forrer,Watergun,3,20,92,31,61,62,34,68,70,58,74,66
-cy,Cyprus,Andrew Lambrou,Break a Broken Heart,7,12,126,58,68,39,,,,,,70
-cz,Czechia,Vesna,My Sister's Crown,14,10,129,35,94,11,57,58,57,74,70,29
-de,Germany,Lord Of The Lost,Blood & Glitter,21,26,18,15,3,65,35,67,66,65,83,40
-ee,Estonia,Alika,Bridges,12,8,168,22,146,28,40,60,30,60,82,16
-es,Spain,Blanca Paloma,Eaea,8,17,100,5,95,62,57,51,42,86,48,44
-fi,Finland,Käärijä,Cha Cha Cha,13,2,526,376,150,56,33,63,26,59,38,57
-fr,France,La Zarra,Évidemment,6,16,104,50,54,64,68,71,43,86,63,48
-gb,United Kingdom,Mae Muller,I Wrote A Song,26,25,24,9,15,65,35,89,66,35,51,69
-hr,Croatia,Let 3,Mama ŠČ!,25,13,123,112,11,28,73,33,40,80,58,33
-il,Israel,Noa Kirel,Unicorn,23,3,362,185,177,45,,,,,,
-it,Italy,Marco Mengoni,Due vite,11,4,350,174,176,47,50,76,70,75,61,30
-lt,Lithuania,Monika Linkytė,Stay,22,11,127,46,81,23,42,60,19,65,82,16
-md,Moldova,Pasha Parfeni,Soarele și Luna,18,18,96,76,20,18,,,,,71,19
-no,Norway,Alessandra,Queen of Kings,20,5,268,216,52,61,31,69,8,50,35,55
-pl,Poland,Blanka,Solo,4,19,93,81,12,25,68,60,64,93,38,29
-pt,Portugal,Mimicat,Ai Coração,2,23,59,16,43,54,63,27,31,104,28,33
-rs,Serbia,Luke Black,Samo mi se spava,5,24,30,16,14,15,86,25,43,92,52,28
-se,Sweden,Loreen,Tattoo,9,1,583,243,340,62,31,71,5,29,53,78
-si,Slovenia,Joker Out,Carpe Diem,24,21,78,45,33,28,71,27,19,88,49,48
-ua,Ukraine,Tvorchi,Heart of Steel,19,6,243,189,54,18,,,,,86,14
+country_id,nr_part,pdi,idv,mas,uai,ltowvs,ivr,language
+al,4,90,27,80,70,56,15,Albanian
+am,4,85,17,50,88,38,25,Caucasian
+at,4,11,77,79,70,47,63,Germanic
+au,6,38,73,61,51,56,71,Germanic
+az,5,85,28,50,88,59,22,Turkic
+be,5,65,81,54,94,61,57,Germanic
+bg,4,70,50,40,85,51,16,Slavic
+by,2,95,48,20,95,53,15,Slavic
+ch,4,34,79,70,58,42,66,Germanic
+cy,6,75,42,58,115,59,70,Hellenic
+cz,5,57,70,57,74,51,29,Slavic
+de,7,35,79,66,65,57,40,Germanic
+dk,3,18,89,16,23,59,70,Germanic
+ee,4,40,62,30,60,71,16,Uralic
+es,7,57,67,42,86,47,44,Romance
+fi,4,33,75,26,59,63,57,Uralic
+fr,7,68,74,43,86,60,48,Romance
+gb,7,35,76,66,35,60,69,Germanic
+ge,1,65,15,55,85,24,32,Caucasian
+gr,4,60,59,57,100,51,50,Hellenic
+hr,3,73,42,40,80,40,33,Slavic
+hu,3,46,71,88,82,45,31,Uralic
+ie,1,28,58,68,35,51,65,Germanic
+il,6,13,56,47,81,47,,Semitic
+is,3,30,83,10,50,57,67,Germanic
+it,7,50,53,70,75,39,30,Romance
+lt,5,42,55,19,65,49,16,Baltic
+lv,1,44,70,9,63,69,13,Baltic
+md,5,90,27,39,95,71,19,Romance
+mk,1,90,40,45,87,35,35,Slavic
+mt,3,56,59,47,96,47,66,Semitic
+nl,6,38,100,14,53,67,68,Germanic
+no,6,31,81,8,50,55,55,Germanic
+pl,4,68,47,64,93,49,29,Slavic
+pt,5,63,59,31,99,42,33,Romance
+ro,2,90,46,42,90,32,20,Romance
+rs,6,86,42,43,92,37,28,Slavic
+ru,3,93,46,36,95,58,20,Slavic
+se,7,31,87,5,29,52,78,Germanic
+si,3,71,81,19,88,50,48,Slavic
+sm,2,50,53,70,75,39,30,Romance
+ua,6,92,55,27,95,51,14,Slavic
